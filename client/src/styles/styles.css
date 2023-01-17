@@ -1,0 +1,91 @@
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+    /* margin-top: 150px; */
+    text-align: center;
+    margin-top: 5%;
+    transition: 1s;
+  }
+  
+  .form-signin {
+    font-weight: 400;
+  }
+  
+  .form-signin .form-floating:focus-within {
+    z-index: 2;
+  }
+
+  .login-img {
+        width: 200px;
+        height: 200px;
+  }
+
+  .login-spinner {
+    width: 200px;
+    height: 200px;
+  }
+
+  .red {
+    color: #B20600;
+  }
+
+  .green {
+    color: #019267
+  }
+
+  .result-text {
+    font-size: 3rem;
+    font-weight: bolder;
+    
+  }
+
+  .result-text-position {
+    /* margin-right: 15%; */
+    transition: 1s;
+    margin-right: 80px;
+  }
+
+  .result-text-position-zero {
+    /* margin-right: 15%; */
+    transition: 1s;
+    margin-right: 0px;
+  }
+
+
+.main {
+  max-width: 600px;
+  margin-top: -50px;
+}
+
+.main-left {
+  transition: 1s;
+  margin-left: 80px;
+}
+
+.main-left-zero {
+  transition: 1s;
+  margin-left: 0px;
+}
+
+.password-input {
+  margin: 0px 0px 8px;
+  padding: 16px 12px;
+}
+
+.eye {
+  float: right;
+  margin-right: 15px;
+  margin-top: -57px;
+  position: relative;
+  font-size: 1.5rem;
+  z-index: 2;
+  opacity: 0.3;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.eye:hover {
+  opacity: 1;
+}
